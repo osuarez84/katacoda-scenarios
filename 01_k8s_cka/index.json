@@ -16,9 +16,9 @@
       }
     },
     "environment": {
-      "uilayout": "editor-terminal"
+      "uilayout": "terminal-terminal-terminal"
     },
     "backend": {
-      "imageid": "kubernetes-cluster:1.18"
+      "imageid": "kubernetes-cluster:1.20"
     }
 }
