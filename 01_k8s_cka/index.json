@@ -9,8 +9,7 @@
         }
       ],
       "intro": {
-        "text": "intro.md",
-        "code": "updating.sh"
+        "text": "intro.md"
       },
       "finish": {
         "text": "finish.md"
