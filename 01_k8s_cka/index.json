@@ -16,7 +16,10 @@
       }
     },
     "environment": {
-      "uilayout": "terminal-terminal-terminal"
+        "uilayout": "terminal-terminal",
+        "terminals": [
+            {"name": "Master Node", "target": "host01"}
+        ]
     },
     "backend": {
       "imageid": "kubernetes-cluster:1.20"
