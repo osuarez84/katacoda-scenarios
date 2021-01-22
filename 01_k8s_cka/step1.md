@@ -35,3 +35,10 @@ Host2:
 `sudo systemctl daemon-reload`{{execute HOST2}}
 
 `sudo systemctl restart kubelet`{{execute HOST2}}
+
+
+## Applying a CNI to the cluster.
+In order to connect the machines on the cluster is mandatory to include a network
+plugin.
+
+`kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"`{{execute HOST1}}
